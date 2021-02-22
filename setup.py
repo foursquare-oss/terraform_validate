@@ -2,15 +2,15 @@ from setuptools import setup, find_packages
 
 setup(
     name="terraform_validate",
-    version="3.0.2",
+    version="3.0.3",
     author="Edmund Dipple",
     author_email="elmundio1987@gmail.com",
     description="A library that provides asserts for testing Terraform configuration",
     url="https://github.com/foursquare/terraform_validate",
-    download_url = 'https://github.com/foursquare/terraform_validate/tarball/3.0.2',
+    download_url = 'https://github.com/foursquare/terraform_validate/tarball/3.0.3',
     keywords = ['terraform', 'assert', 'testing'],
     packages = find_packages(),
     install_requires=[
-        "pyhcl==0.4.0"
+        "pyhcl==0.4.4"
     ],
 )
